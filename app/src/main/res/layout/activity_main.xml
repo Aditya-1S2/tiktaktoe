@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+        <Button android:id="@+id/btn1"
+            android:onClick="check">
+
+        </Button>
+        <Button android:id="@+id/btn2"
+            android:layout_marginLeft="11dp"
+            android:onClick="check">
+
+        </Button>
+        <Button android:id="@+id/btn3"
+            android:layout_marginLeft="11dp"
+            android:onClick="check">
+
+        </Button>
+        <Button android:id="@+id/btn4"
+            android:onClick="check">
+
+        </Button>
+        <Button android:id="@+id/btn5"
+            android:layout_marginLeft="11dp"
+            android:onClick="check">
+
+        </Button>
+        <Button android:id="@+id/btn6"
+            android:layout_marginLeft="11dp"
+            android:onClick="check">
+
+        </Button>
+        <Button android:id="@+id/btn7"
+            android:onClick="check">
+
+        </Button>
+        <Button android:id="@+id/btn8"
+            android:layout_marginLeft="11dp"
+            android:onClick="check">
+
+        </Button>
+        <Button android:id="@+id/btn9"
+            android:layout_marginLeft="11dp"
+            android:onClick="check">
+
+        </Button>
+
+        <ImageButton android:src="@android:drawable/btn_dialog"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/reset"
+            android:layout_height="wrap_content"
+            android:onClick="newGame"
+            android:src="@android:drawable/ic_input_add"></ImageButton>
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/radiobutton_off_background"></ImageButton>
+
+    </GridLayout>
+
+
+</LinearLayout>
